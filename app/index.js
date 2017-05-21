@@ -10,12 +10,12 @@ var listName = [
     { name: 'Jessica', friend: true },
     { name: 'Dan', friend: false } ];
 
-class Badge extends React.Component {
+class Users extends React.Component {
   render() {
-      var friendList = this.props.filter(function (friend) {
+      var friendList = this.props.list.filter(function (friend) {
           return friend.friend === true;
       });
-      var nonfriendList = this.props.filter(function (nonfriend) {
+      var nonfriendList = this.props.list.filter(function (nonfriend) {
           return nonfriend.friend === false;
       });
     return (
