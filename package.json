@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/ulyssesyang/react_training_git_battle#readme",
   "dependencies": {
+    "axios": "^0.16.1",
     "jquery": "^3.2.1",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
