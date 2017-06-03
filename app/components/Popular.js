@@ -75,7 +75,7 @@ SelectLanguage.propTypes = {
 
 class Popular extends React.Component {
     constructor(props) {
-        super();
+        super(props);
         this.state = {
             selectedLanguage: 'All',
             repos: null
